@@ -19,8 +19,10 @@ header h1{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 section{
-    max-width: 400px;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 div{
     background-color: white;
@@ -28,18 +30,26 @@ div{
     border-radius: 10px;
     padding: 10px 20px;
     line-height: 1.4;
+    width: 300px;
+    height: 180px;
+    
 }
 div h2{
     border-bottom: 3px solid black;
+    text-align: center;
 }
 div p{
     padding-top: 5px;
+    text-align: right;
+    
 }
 div a{
     display: block;
     padding-top: 5px;
     text-decoration: none;
     color: rgb(80, 80, 80);
+    text-align: right;
+    
 }
 a:hover{
     text-decoration: underline;
